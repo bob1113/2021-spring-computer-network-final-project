@@ -1,0 +1,9 @@
+# Executables
+*.exe
+*.out
+*.app
+
+# Documents & Refernece files
+*.pdf
+*.word
+/Documents/*
