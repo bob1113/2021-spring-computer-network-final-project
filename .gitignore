@@ -5,5 +5,5 @@
 
 # Documents & Refernece files
 *.pdf
-*.word
-/Documents/*
+*.docx
+Document/
