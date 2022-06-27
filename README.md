@@ -92,7 +92,7 @@ To get a local copy up and running follow these simple steps.
     <!-- TODO: Client behavior with screenshot -->
     | Game start                  | Guess number              | Correct guess             |
     | --------------------------- | ------------------------- | ------------------------- |
-    | ![](.\image\game-start.png) | ![](.\image\guessing.png) | ![](.\image\correct.png)  |
+    | ![](/image/game-start.png) | ![](/image/guessing.png) | ![](/image/correct.png)  |
      
 ### Remarks
 
