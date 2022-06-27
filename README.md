@@ -5,27 +5,26 @@
 ## Table of contents
 
 <div>
-  <!-- <summary>Table of Contents</summary> -->
-  <ul>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
+    <!-- <summary>Table of Contents</summary> -->
+    <ul>
+        <li>
+            <a href="#about-the-project">About The Project</a>
+            <ul>
+                <li><a href="#built-with">Built With</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#how-to-run-the-project">Getting Started</a>
+            <ul>
+                <li><a href="#prerequisites">Prerequisites</a></li>
+                <li><a href="#installation-and-simulation">Installation</a></li>
+                <li><a href="#remarks">Remarks</a></li>
+            </ul>
+        </li>
+        <li><a href="#acknowledgments">Acknowledgments</a></li>
+        <li><a href="#license">License</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
 </div>
 
 
@@ -34,11 +33,8 @@
 
 Tis is a number guessing game based on TCP socket. The server side allows clients to guess a number between 0 to 999, and replies a guessing result, onthe other hand, the client side can access the server, guess a number, and read the result replied by the server. Since this project is implemented by Windows Sockets API, it can only run on Windows system, but one shall be able to modify it into a Linux/Unix system version easily.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
-## Built with
+### Built with
 
 + Windows Sockets API
 
@@ -59,6 +55,7 @@ Loopback adapter is a network interface that can be used to route network traffi
 
 <!-- TODO: Wireshark usage -->
 Wireshark is a free and open-source packet analyzer, one may use it to observe the communication between server and slient in this project.
+
 
 ### Installation and simulation
 
@@ -99,15 +96,21 @@ To get a local copy up and running follow these simple steps.
      
 ### Remarks
 
-The number used in `.\ser 5555` is the port number that server and client communicate with, and the address `127.0.0.1` means that the client communicate with the server through loopback adapter, i.e., sending and receiving data on the same computer.
+
+The number used in `.\ser 5555` is the port number that server and client communicate with, and the address `127.0.0.1` means that the client communicate with the server through loopback adapter, i.e., sending and receiving packets on the same computer.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-## Acknowledgment
 
-[WinSock](https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-start-page-2)
+## Acknowledgments
+
++ [Windows Socket 2 document](https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-start-page-2)
++ [Winsock tutorial – Socket programming in C on windows](https://www.binarytides.com/winsock-socket-programming-tutorial/)
+
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+
 
 ## License
 
@@ -116,9 +119,10 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
+
 ## Contact
 
-Bob Lai - [Email](bobolai1113@gmail.com) - bobolai1113@gmail.com \
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Bob Lai - [bobolai1113@gmail.com](bobolai1113@gmail.com) \
+Project Link - [https://github.com/bob1113/tcp-number-guessing-game](https://github.com/bob1113/tcp-number-guessing-game)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
