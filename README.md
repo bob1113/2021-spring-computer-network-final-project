@@ -2,7 +2,8 @@
 
 # TCP number guessing game
 
-![](https://badgen.net/badge/last-modify/2022-06-27/)
+![](https://badgen.net/github/last-commit/bob1113/tcp-number-guessing-game)
+![](https://badgen.net/github/license/bob1113/tcp-number-guessing-game)
 
 ## Table of contents
 
