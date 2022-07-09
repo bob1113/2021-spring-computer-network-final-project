@@ -17,7 +17,7 @@
             </ul>
         </li>
         <li>
-            <a href="#how-to-run-the-project">Getting Started</a>
+            <a href="#how-to-run-the-project">How to run this project</a>
             <ul>
                 <li><a href="#prerequisites">Prerequisites</a></li>
                 <li><a href="#installation-and-simulation">Installation</a></li>
@@ -34,7 +34,7 @@
 
 ## About the project
 
-Tis is a number guessing game based on TCP socket. The server side allows clients to guess a number between 0 to 999, and replies a guessing result, onthe other hand, the client side can access the server, guess a number, and read the result replied by the server. Since this project is implemented by Windows Sockets API, it can only run on Windows system, but one shall be able to modify it into a Linux/Unix system version easily.
+Tis is a number guessing game based on TCP socket. The server side allows clients to guess a number between 0 to 999, and replies a guessing result, on the other hand, the client side can access the server, guess a number, and read the result replied by the server. Since this project is implemented by Windows Sockets API, it can only run on Windows system, but one shall be able to modify it into a Linux/Unix system version easily.
 
 
 ### Built with
@@ -45,7 +45,7 @@ Tis is a number guessing game based on TCP socket. The server side allows client
 
 
 
-## How to run the project
+## How to run this project
 
 ### Prerequisites
 
@@ -57,7 +57,7 @@ Tis is a number guessing game based on TCP socket. The server side allows client
 Loopback adapter is a network interface that can be used to route network traffic from one application to another on the same computer, but does NOT send that traffic to any other device on the network, which is useful to observe the behaviors on both server side and client side with only one Windows-system computer.  
 
 <!-- TODO: Wireshark usage -->
-Wireshark is a free and open-source packet analyzer, one may use it to observe the communication between server and slient in this project.
+Wireshark is a free and open-source packet analyzer, one may use it to observe the communication between server and client in this project.
 
 
 ### Installation and simulation
